@@ -1,0 +1,221 @@
+@import "http://fonts.googleapis.com/css?family=Montserrat:300,400,700";
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font: 300 62.5%/1.75 'helvetica neue', sans-serif;
+}
+
+body {
+  font-size: 1.8em;
+  margin: 0 auto;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.1;
+  margin: 2.4rem 0 0.5rem;
+  font-weight: bold;
+}
+
+h2, h3 {
+  letter-spacing: -1px;
+}
+
+h1 {
+  font-size: 2.8em;
+  letter-spacing: -2px;
+}
+
+h2 {
+  font-size: 2.4em;
+}
+
+h3 {
+  font-size: 1.8em;
+}
+
+h4 {
+  font-size: 1.4em;
+}
+
+h5 {
+  font-size: 1.2em;
+}
+
+h6 {
+  font-size: 1.1em;
+}
+
+p {
+  margin: 0;
+}
+
+ul, ol, table, img {
+  margin: .5em 0;
+}
+
+p + p {
+  text-indent: 1.5em;
+}
+
+form p + p {
+  text-indent: 0;
+}
+
+ul, ol {
+  padding: 0;
+}
+ul ul, ul ol, ol ul, ol ol {
+  padding-left: 1em;
+}
+
+table {
+  border-bottom: 1px solid #000;
+  line-height: 1.2;
+}
+
+tr {
+  border-top: 1px solid #000;
+}
+
+th {
+  text-align: left;
+  border-bottom: 2px solid #000;
+}
+
+th, td {
+  padding: .25em 1em;
+}
+th:first-child, td:first-child {
+  padding-left: 0;
+}
+th:last-child, td:last-child {
+  padding-right: 0;
+}
+
+a:link {
+  color: #35a;
+}
+a:visited {
+  color: #86a;
+}
+a:hover {
+  color: #f00;
+}
+a:active {
+  color: #35d;
+}
+
+hr {
+  border-width: 1px 0 0 0;
+}
+
+.wrapper {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.single {
+  width: 80%;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 1em 2em 2em;
+}
+
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+html {
+  background: #27ae60;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+  padding: 0 2em;
+}
+
+.nav-main {
+  margin: 1em 0;
+}
+.nav-main ul {
+  box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.15);
+  background: #2c3e50;
+  text-transform: uppercase;
+  padding: 0;
+  font-size: 0;
+  text-align: justify;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.nav-main ul:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+.nav-main li {
+  font-size: 16px;
+  display: inline-block;
+}
+.nav-main .menu {
+  display: none;
+}
+.nav-main a {
+  text-decoration: none;
+  display: block;
+  padding: 1em 1em;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+.nav-main a:link {
+  color: white;
+}
+.nav-main a:visited {
+  color: white;
+}
+.nav-main a:hover {
+  background: #f39c12;
+}
+.nav-main a:before {
+  padding-right: .5em;
+}
+@media (max-width: 767px) {
+  .nav-main ul {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+  }
+  .nav-main ul:hover li {
+    display: block;
+  }
+  .nav-main li {
+    display: none;
+  }
+  .nav-main .menu {
+    display: block;
+    position: relative;
+  }
+  .nav-main a {
+    padding: .5em 1em;
+  }
+}
+
+a:link {
+  color: #f1c40f;
+}
+a:visited {
+  color: #f1c40f;
+}
+a:hover {
+  color: #f39c12;
+}

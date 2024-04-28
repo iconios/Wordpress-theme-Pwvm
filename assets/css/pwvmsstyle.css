@@ -1,0 +1,1977 @@
+
+body {
+	font-family: "Helvetica Narrow", Arial, sans-serif;
+	text-align: justify;
+}
+
+.location-icon {
+	max-width: 10px;
+	height: 15px;
+	position: relative;
+	bottom: 2px;
+	left: 10px;
+}
+
+#location-address {
+	color: white;
+	font-size: 12px;
+}
+
+.tel-nos  {
+	font-family: "Helvetica Narrow", Arial, sans-serif;
+	font-size:	18px;
+	position: relative;
+	text-align: right;
+	right: 20px;
+	bottom: 100px;
+	color: white;
+	font-weight: bold;
+}
+
+.smedia {
+	float: right;
+}
+
+#facebook-icon {
+	color: #B28D00;
+	background-color: white;
+	position: relative;
+	right: 30px;
+	top: 3px;
+}
+
+#twitter-icon {
+	color: #B28D00; 
+	background-color: white;
+	position: relative;
+	right: 20px;
+	top: 3px;
+}
+
+#linkedin-icon {
+	color: #B28D00; 
+	background-color: white;
+	position: relative;
+	right: 10px;
+	top: 3px;
+}
+
+#locate-on-map a {
+	vertical-align: middle;
+	color: white;
+	font-size: 12px;
+	position: absolute;
+	left: 50%;
+	right: 50%;
+}
+
+#locate-on-map a:link {
+	color: white;
+}
+
+#locate-on-map a:visited {
+	color: white;
+}
+
+#locate-on-map a:hover {
+	color: #B28D00;
+	transition: all 0.3s ease;
+}
+
+#locate-on-map a:active {
+	color: #71A9CC;
+}
+
+#logo {
+	position: relative;
+	left: 18px;
+	top: 15px;
+	width: 147px;
+	height: 130px;
+}
+
+.glyphicon-screenshot {
+	color: #B28D00;
+	background-color: white;
+}
+
+.glyphicon-envelope,
+.glyphicon-earphone {
+	color: #31467F;
+}
+
+.btn-primary {
+	background-color: #B28D00;
+	border-color: #B28D00;
+	box-shadow: 3px 3px rgba(0, 0, 0, .5);
+}
+
+#head-panel {
+	height: 160px;
+	background-color: rgba(113, 169, 204, 1.0); 
+}
+
+#contact-info-bar {
+	margin-bottom: 3px;
+	height: 37px;
+	background-color: rgba(109, 120, 127, 1.0);
+	position: relative;
+}
+
+div#contact-info-bar i.fa-linkedin-square:hover {
+	color: #0E76A8;
+	opacity: 0.8;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+div#contact-info-bar i.fa-twitter-square:hover {
+	color: #0084b4;
+	opacity: 0.8;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+div#contact-info-bar i.fa-facebook-square:hover {
+	color: #8b9dc3;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.navbar-wrapper {
+	margin-top: 4px;
+}
+
+.dropdown-menu li a:link,
+.dropdown a:link,
+.dropdown a i span:link {
+	color: white;
+}
+
+.dropdown-menu li a:hover,
+.dropdown a:hover,
+.dropdown a i span:hover{
+	background-color: #000000;
+	color: #B28D00;
+	transition: all 0.3s ease;
+}
+
+.dropdown-menu li a:visited,
+.dropdown a:visited,
+.dropdown a i span:visited{
+	background-color: rgba(49, 70, 127, 0.9);
+	color: rgba(0, 0, 0, 0.9);
+}
+
+.dropdown-menu li a:active,
+.dropdown a:active,
+.dropdown a i span:active{
+	color: #000000;
+}
+
+.navbar-header > button {
+	position: relative;
+	top: 5px;
+}
+
+.navbar-header > button:hover {
+	position: relative;
+	top: 5px;
+	transition: all 0.3s ease;
+}
+
+.navbar-brand {
+	position: relative;
+	top: 5px;
+}
+
+.navbar,
+.navbar-header,
+.dropdown-menu,
+.dropdown 
+div#navbar {
+	background-color: rgba(49, 70, 127, 0.9);
+	border: 0;
+}
+
+.nav-tabs.nav-justified > li > a {
+    border-bottom: 0;
+	position: relative;
+	top: 5px;
+	color: white;
+}	
+
+.nav-tabs.nav-justified > li > a:hover {
+    color: #B28D00;
+	transition: all 0.3s ease;
+}
+	
+ .affix {
+	width: 100%;
+    top: 0;
+	left: 0;
+	z-index: 9999 !important; 
+}
+
+
+  /* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 350px;
+   background-color: #31467F;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 350px;
+  background-color: #31467F;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 350px;
+}
+
+#carousel-container {
+	margin-top: -14px;
+}
+
+section.carousel {
+	height: 200px;
+	background-color: rgba(49, 70, 127, 0.0);
+}
+
+section.carousel .item {
+	height: 200px;
+	background-color: rgba(49, 70, 127, 0.0);
+}
+
+
+
+/* CUSTOMIZE THE WELCOME PANEL
+-------------------------------------------------- */
+
+div#welcome-row h3 {
+	text-align: center;
+	color:#31467F;
+	font-weight: bold;
+}
+
+#welcome-row p {
+	font-size: 15px;
+	line-height:22px;
+	text-align:center;
+	padding-top: 20px;
+}
+
+#welcome-border {
+	text-align: center;
+	width: 60%;
+	height: 3px;
+	margin: 0 auto;
+	background-color: #B28D00;
+	border: 0;
+}
+
+.view-more {
+	float: right;
+	background-color: #B28D00;
+	border-color: #B28D00;
+	color: white;
+	border:0;
+	box-shadow: 3px 3px rgba(0, 0, 0, .5);
+}
+
+div#welcome-container {
+	margin-bottom: 0;
+	background-image: url("img/bg-img-2.jpg");
+	padding-bottom: 20px;
+}
+
+/* CUSTOMIZE THE CLIENT-PORTAL PAGE
+-------------------------------------------------- */
+div#portal-col img {
+	width: 100px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+div#portal-body input {
+	width: 100%;
+}
+
+div#portal-input label {
+	margin-top: 20px;
+	font-size: 15px;
+	line-height: 22px;
+}
+
+div#portal-body {
+	width: 100%;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #31467F;
+	margin: auto;
+}
+
+div#portal-body #portal-login {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+div#portal-col h3 {
+	text-align: center;
+	color: #31467F;
+	font-weight: bold;
+}
+
+div#portal-col p {
+	font-size: 15px;
+	line-height: 22px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+div#portal-col form {
+	padding-bottom: 50px;
+}
+
+
+/* CUSTOMIZE THE VACANCIES PAGE
+-------------------------------------------------- */
+div.vacancies-head > h3,
+div.vacancies-head > p {
+	text-align: center;
+}
+
+div.vacancies-group p,
+div#vacancies-col > p {
+	font-size: 15px;
+	line-height: 22px;
+}
+
+div.vacancies-foot {
+	height: 50px;
+}
+
+div.vacancies-group {
+	margin-bottom: 30px;
+}
+
+div#vacancies-single-container {
+	margin-bottom: 30px;
+}
+
+div#vacancies-single-container h3 {
+	text-align: center;
+	color: #31467F;
+	font-weight: bold;
+}
+
+div#vacancies-single-container strong {
+	color: #31467F;
+	font-size: 16px;
+}
+
+div#vacancies-single-col > h4 {
+	color: #31467F;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 30px;
+}
+
+div#vacancies-single-side {
+	margin-top: 30px;
+}
+
+div#vacancies-single-side h4 {
+	font-weight: bold;
+}
+
+
+
+/* CUSTOMIZE THE CAREERS-OVERVIEW PAGE
+-------------------------------------------------- */
+div#careers-overview-col img {
+	width: 100%;
+	height: 300px;
+	margin-top: -15px;
+}
+
+div#careers-overview-col > h3 {
+	font-weight: bold;
+	color: #31467F;
+	text-align: center;
+}
+
+div#careers-overview-col > p {
+	font-size: 15px;
+	line-height: 22px;
+}
+
+div#careers-overview-container {
+	margin-bottom: 30px;
+}
+
+div#careers-overlay-img {
+	background-color: rgba(49, 70, 127, 0.5);
+	width: 100%;
+	height: 300px;
+	position: relative;
+	top: -300px;
+	margin-bottom: -300px;
+}
+
+
+/* CUSTOMIZE THE CONTACT PAGE
+-------------------------------------------------- */
+div#contact-col > h3 {
+	text-align: center;
+	color: #31467F;
+	font-weight: bold;
+}
+
+div#contact-col > p {
+	font-size: 15px;
+	line-height: 22px;
+}
+
+div#name-col > input,
+div#email-col > input,
+textarea[name=message] {
+	width: 100%;
+	padding-top: 0px;
+}
+
+div#contact-col,
+div#contact-side {
+	margin-bottom: 30px;
+}	
+
+input[type=submit],
+input[type=reset] {
+	margin-top: 30px;
+	width: 100px;
+	background-color: #B28D00;
+	color: #FFFFFF;
+	box-shadow: 3px 3px rgba(0, 0, 0, .5);
+	height: 30px;
+	margin-left: 15px;
+}
+
+input[type=submit]:hover,
+input[type=reset]:hover {
+	background-color: #286090;
+	color: #FFFFFF;
+	transition: all 0.3s ease;
+}
+
+form#form-col span {
+	color: #B28D00;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+form#form-col label {
+	color: #000000;
+	font-family: "century gothic", Sylfaen, arial, sans-serif;
+	padding-top: 30px;
+	padding-bottom: 0;
+	font-weight: bold;
+}
+
+
+div#contact-side h4.side-heads {
+	font-family: "century gothic", Sylfaen, arial, sans-serif;
+	font-weight: bold;
+	padding-bottom: 0;
+	color: #B28D00;
+	margin-top: 50px;
+	font-size: 16px;
+}
+
+div#contact-side p.side-bodies {
+	padding-top: 0;
+	color: #31467F;
+}
+
+div#contact-smedia {
+	text-align: center;
+	margin-top: 20px;
+}
+
+div#contact-smedia i.fa-facebook-square {
+	color: #3b5998;
+}
+
+div#contact-smedia i.fa-facebook-square:hover {
+	color: #8b9dc3;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+div#contact-smedia i.fa-twitter-square {
+	color: #0084b4;
+}
+
+div#contact-smedia i.fa-twitter-square:hover {
+	color: #0084b4;
+	opacity: 0.8;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+div#contact-smedia i.fa-linkedin-square {
+	color: #0E76A8;
+}
+
+div#contact-smedia i.fa-linkedin-square:hover {
+	color: #0E76A8;
+	opacity: 0.8;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+
+/* CUSTOMIZE THE PROOFS PAGE
+-------------------------------------------------- */
+div#proofs-overlay-img {
+	background-color: rgba(49, 70, 127, 0.4);
+	width: 100%;
+	height: 300px;
+	position: relative;
+	top: -300px;
+	margin-bottom: -300px;
+}
+
+
+div.proofs-img > img {
+	width: 100%;
+	height: 300px;
+	margin-top: -14px;
+}
+
+div#estate-testimonials,
+div#proofs-overview  {
+	margin-bottom: 30px;
+}
+
+div#proofs-estate > h3,
+div#proofs-overview > h3 {
+	font-weight: bold;
+	text-align: center;
+	color: #31467F;
+}
+
+div#proofs-estate > h6 {
+	text-align: center;
+}
+
+div#proofs-estate > h4,
+div#estate-testimonials-head > h4 {
+	padding-top: 10px;
+	color: #31467F;
+}
+
+div#estate-testimonials-head > h4 {
+	padding-bottom: 10px;
+}
+
+div#proofs-estate > p,
+div.estate-proofs > p > q,
+div#proofs-overview > p  {
+	font-size: 15px;
+	line-height: 22px;
+}
+
+div.estate-proofs > img {
+	height: 256px;
+	width: 197px;
+}
+
+div.estate-proofs > h3,
+div.estate-proofs > h5 {
+	text-align: center;
+}
+
+div.estate-proofs > h3 {
+	color: #31467F;
+}
+
+
+
+/* CUSTOMIZE THE DOWNLOADS PAGE
+-------------------------------------------------- */
+div#downloads-col > h3 {
+	font-weight: bold;
+	text-align: center;
+	color: #31467F;
+}
+
+div#downloads-col > p {
+	font-size: 15px;
+	line-height: 22px;
+}
+
+div#downloads-col > ul > li {
+	color: #B28D00;
+}
+
+div#downloads-col > ul > li > a {
+	color: #000000;
+}
+
+div#downloads-container {
+	margin-bottom: 30px;
+}
+
+
+
+/* CUSTOMIZE THE IMAGE GALLERY PAGE
+-------------------------------------------------- */
+div.img-gallery-col > h3 {
+	font-weight: bold;
+	text-align: center;
+	color: #31467F;
+}
+
+div.img-gallery-col > p {
+	font-size: 15px;
+	line-height: 22px;
+}
+
+div#img-gallery-rss > object,
+div#img-gallery-rss > object > embed {
+	width: 100%;
+	height: 500px;
+}	
+
+div#img-gallery-row {
+	margin-bottom: 30px;
+}
+
+/* CUSTOMIZE THE COMP ADVANTAGE PAGE
+-------------------------------------------------- */
+div#comp-adv-col > h3 {
+	font-weight: bold;
+	text-align: center;
+	color: #31467F;
+}
+
+div#comp-adv-col > p {
+	font-size: 15px;
+	line-height: 22px;
+}
+
+div#comp-adv-container {
+	margin-bottom: 30px;
+}
+
+
+
+/* CUSTOMIZE THE ORG STRUCTURE PAGE
+-------------------------------------------------- */
+
+div#org-structure-col > h3 {
+	font-weight: bold;
+	color: #31467F;
+	text-align: center;
+}
+
+div#org-structure-col > p {
+	font-size: 15px;
+	line-height: 22px;
+}
+
+div#org-structure-col > img {
+	margin-top: 20px;
+	margin-bottom: 30px;
+	width: 100%;
+}
+
+
+/* CUSTOMIZE THE ABOUT PAGE
+-------------------------------------------------- */
+.about-head {
+	font-weight: bold;
+	text-align: center;
+	color: #31467F;
+}
+
+.about-body,
+.about-list {
+	font-size: 15px;
+	line-height: 22px;
+}
+
+#about-container {
+	margin-bottom: 20px;
+}
+
+#about-list li {
+	color: #B28D00;
+}
+
+#about-list li > span {
+	color: #000000;
+}
+
+#about-img-0 {
+	margin-top: -14px;
+	height: 270px;
+}
+
+div#about-img-0 img {
+	width: 100%;
+	height: 100%;
+}
+
+
+/* CUSTOMIZE THE SERVICES PANEL
+-------------------------------------------------- */
+h3.service-head ~ p {
+	font-size: 15px;
+	line-height: 22px;
+}
+
+.service-head {
+	font-weight: bold;
+	text-align: center;
+	color: #31467F;
+}
+
+.service-img {
+	margin-top: -14px;
+	margin-bottom: 5px;
+	height: 300px;
+	width: 100%;
+}
+
+.service-img > img {
+	width: 100%;
+	height: 100%;
+}
+
+.overlay-img {
+	backgroun;d-color: rgba(49, 70, 127, 0.5);
+	width: 100%;
+	height: 300px;
+	position: relative;
+	top: -300px;
+	margin-bottom: -300px;
+}
+
+.service-img ~ div {
+	margin-bottom: 20px;
+}
+
+div#services-container {
+	background-color: rgba(49, 70, 127, 0.9);
+	color: white;
+	padding-bottom: 20px;
+}
+
+#services-border {
+	text-align: center;
+	width: 20%;
+	height: 3px;
+	margin: 0 auto;
+	background-color: #B28D00;
+	border: 0;
+}
+
+h3#services-head-all {
+	text-align: center;
+	font-weight: bold;
+}
+
+div#services-row p {
+	font-size: 15px;
+	line-height: 22px;
+}
+
+div#services-row h4{
+	font-weight: bold;
+	text-align: center;
+}
+
+div#servCarousel-controls {
+	padding-top: 20px;
+}
+
+div#servCarousel-controls > a.left {
+	margin-left: 20px;
+}
+
+div#servCarousel-controls > a.right {
+	margin-right: 20px;
+}
+
+
+
+/* CUSTOMIZE THE TEAM PANEL
+-------------------------------------------------- */
+
+div#team-container {
+	background-image: url("img/bg-img-2.jpg");
+	background-size: cover;
+}
+
+h3#team-head ~ p,
+h3.member-role ~ p {
+	font-size: 15px;
+	line-height: 22px;
+}
+
+.team-pix {
+	border-radius: 50%;
+	height: 237px;
+	width: 237px;
+	vertical-align: middle;
+	text-align: center;
+	border-color: #31467F;
+}
+
+.team-name {
+	color: #31467F;
+	text-align: center;
+	margin-bottom: -1px;
+	font-size: 16px;
+	margin-top: 10px;
+}
+
+#team-border {
+	text-align: center;
+	width: 50%;
+	height: 3px;
+	margin: 0 auto;
+	background-color: #B28D00;
+	border: 0;
+	margin-bottom: 30px;
+}
+
+
+.team-role {
+	text-align: center;
+	margin-top: 1px;
+}
+
+#team-head {
+	text-align: center;
+	color: #31467F;
+	font-weight: bold;
+}
+
+
+.team-panel {
+	border: 0; 
+}
+
+.pager li > a {
+	float: right;
+	margin-top: -5px;
+	margin-bottom: 15px;
+	box-shadow: 3px 3px rgba(0, 0, 0, .5);
+	color: #fff;
+	background-color: #B28D00;
+	border-color: #B28D00;
+}
+
+
+.pager li > a:hover {
+	background-color: #286090;
+	border-color: #286090;
+	transition: all 0.3s ease;
+}
+
+
+.prev-button {
+	color: white;
+	background-color: #B28D00;
+	border-color: #B28D00;
+	position: relative;
+	right: 100px;
+	top: 3px;
+}
+
+.next-button {
+	color: white;
+	background-color: #B28D00;
+	border-color: #B28D00;
+	position: relative;
+	right: 0px;
+	top: 3px;
+}
+
+
+/* CUSTOMIZE THE NEWS PANEL / PAGE
+-------------------------------------------------- */
+
+div#news-single-container {
+	margin-bottom: 20px;
+}
+
+div#news-container {
+	padding-bottom: 30px;
+	
+}
+
+div#news-single-side {
+	margin-top: 60px;
+}
+
+p#news-single-body:first-letter {
+	float: left;
+	font-size: 35px;
+	line-height: 1px;
+	font-weight: bold;
+	margin-right: 0;
+}
+
+div#news-single-col > h4 {
+	font-weight: bold;
+	text-align: center;
+	color: #31467F;
+}
+
+div#news-single-col > h6 {
+	text-align: left;
+}
+
+div#news-single-col > img {
+	margin-bottom: 30px;
+	height: 200px;
+}
+
+div#news-single-col > p {
+	font-size: 15px;
+	line-height: 22px;
+}
+
+
+div.news-date > h4 {
+	text-align: center;
+	color: #31467F;
+}
+
+div.news-section h4 {
+	color: #31467F;
+}
+
+h4.news-head {
+	font-weight: bold;
+	text-align: center;
+}
+
+h4.news-head  ~ p {
+	font-size: 15px;
+	line-height: 22px;
+}
+
+#news-head {
+	text-align: center;
+	color: #31467F;
+	font-weight: bold;
+}
+
+#news-body {
+	text-align: justify;
+	font-size: 15px;
+	line-height: 22px;
+}
+
+#news-border {
+	text-align: center;
+	width: 15%;
+	height: 3px;
+	margin: 0 auto;
+	background-color: #B28D00;
+	border: 0;
+	margin-bottom: 30px;
+}
+
+div#news-real h4 {
+	font-weight: bold;
+	color: #31467F;
+}
+
+h4#news-date {
+	text-align: center;
+}
+
+h4#news-topic {
+	margin-top: 20px;
+	text-align: center;
+}
+
+div#news-real img {
+	width: 100%;
+}
+
+
+.news-img > img {
+	width: 100%;
+}
+
+
+/* CUSTOMIZE THE FOOTER PANEL
+-------------------------------------------------- */
+
+#footer-1 {
+	background-color: #31467F;
+	border: 0px;
+	z-index: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.footer-list{
+	text-align: left;
+	list-style-type: none;
+}
+
+div#pwvm-panel p,
+#tweet-list p,
+.footer-list li a:link {
+	color: gray;
+}
+
+.company-body li a:visited,
+.product-body li a:visited {
+	color: #000000;
+}
+
+.company-body li a:hover,
+.product-body li a:hover
+ {
+	color: white;
+	transition: all 0.3s ease;
+}
+
+.panel-head {
+	text-align: left;
+	margin-left: 12px;
+	font-weight: bold;
+}
+
+.pwvm-head,
+.company-head,
+.product-head,
+.tweet-head,
+.cert-head {
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+#footer-down {
+	text-align: center;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: rgba(109, 120, 127, 1.0);
+}
+
+#last-line a:link {
+	color: white;
+}
+
+#last-line a:visited {
+	color: gray;
+}
+
+#last-line a:hover {
+	color: black;
+	transition: all 0.3s ease;
+}
+
+
+@media screen and (min-width:768px) {
+
+.tel-nos  {
+	font-family: "Helvetica Narrow", Arial, sans-serif;
+	font-size:	18px;
+	position: relative;
+	text-align: right;
+	right: 20px;
+	bottom: 100px;
+	color: white;
+	font-weight: bold;
+}
+
+#location-address {
+	color: white;
+	font-size: 11px;
+}
+
+#locate-on-map a {
+	position: relative;
+	left: 25px;
+	color: white;
+	font-size: 11px;
+}
+
+#logo {
+	position: relative;
+	left: 20px;
+	top: 15px;
+	width: 147px;
+	height: 130px;
+}
+
+
+
+  /* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 400px;
+  margin-bottom: 20px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 400px;
+  background-color: #31467F;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 400px;
+}
+
+#carousel-container {
+	margin-top: -14px;
+}
+
+
+/* CUSTOMIZE THE WELCOME PANEL
+-------------------------------------------------- */
+#welcome-head {
+	text-align: center;
+	color:#31467F;
+}
+
+#welcome-border {
+	text-align: center;
+	width: 40%;
+	height: 4px;
+	margin: 0 auto;
+	background-color: #B28D00;
+	margin-bottom: 20px;
+}
+
+#welcome-body {
+	font-size: 16px;
+	line-height:24px;
+	text-align:center;
+}
+
+#welcome-row p {
+	font-size: 16px;
+	line-height:24px;
+	text-align:center;
+	padding-top: 20px;
+}
+
+.view-more {
+	float: right;
+	background-color: #B28D00;
+	border-color: #B28D00;
+	color: white;
+	border:0;
+	box-shadow: 3px 3px rgba(0, 0, 0, .5);
+}
+
+/* CUSTOMIZE THE CLIENT-PORTAL PAGE
+-------------------------------------------------- */
+div#portal-body {
+	width:33.3%;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #31467F;
+	margin: auto;
+}
+
+div#portal-col p {
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+div#portal-input label {
+	margin-top: 20px;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+
+/* CUSTOMIZE THE VACANCIES PAGE
+-------------------------------------------------- */
+div.vacancies-group p,
+div#vacancies-single-col > p {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+/* CUSTOMIZE THE CAREERS-OVERVIEW PAGE
+-------------------------------------------------- */
+
+div#careers-overview-col > p {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+
+/* CUSTOMIZE THE CONTACT PAGE
+-------------------------------------------------- */
+
+div#contact-col > p {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+
+/* CUSTOMIZE THE PROOFS PAGE
+-------------------------------------------------- */
+div#proofs-estate > p,
+div.estate-proofs > p > q,
+div#proofs-overview > p  {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+
+/* CUSTOMIZE THE DOWNLOADS PAGE
+-------------------------------------------------- */
+
+div#downloads-col > p {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+
+/* CUSTOMIZE THE IMAGE GALLERY PAGE
+-------------------------------------------------- */
+div.img-gallery-col > p {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+
+/* CUSTOMIZE THE COMP ADVANTAGE PAGE
+-------------------------------------------------- */
+
+div#comp-adv-col > p {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+
+/* CUSTOMIZE THE ORG STRUCTURE PAGE
+-------------------------------------------------- */
+
+div#org-structure-col > p {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+/* CUSTOMIZE THE ABOUT PAGE
+-------------------------------------------------- */
+
+.about-body,
+.about-list {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+
+/* CUSTOMIZE THE SERVICES PANEL
+-------------------------------------------------- */
+.img-responsive > img {
+	width: 100%;
+	height: 100%;
+	opacity: 1;
+}
+
+
+#services-head-all {
+	text-align: center;
+}
+
+#services-border {
+	text-align: center;
+	width: 5%;
+	height: 4px;
+	margin: 0 auto;
+	background-color: #B28D00;
+	margin-bottom: 20px;
+}
+
+div.col-services p {
+	font-size: 16px;
+	line-height:24px;
+}
+
+.services-body {
+	text-align: justify;
+}
+
+div#services-row  ul  {
+	padding-top: 230px;
+}
+
+/* CUSTOMIZE THE TEAM PANEL
+-------------------------------------------------- */
+#team-row {
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+
+h3#team-head ~ p,
+h3.member-role ~ p {
+	font-size: 16px;
+	line-height: 24px;
+	text-align: justify;
+}
+
+
+.team-pix {
+	border-radius: 50%;
+	height: 237px;
+	width: 237px;
+	vertical-align: middle;
+	text-align: center;
+	border-color: #31467F;
+}
+
+.team-name {
+	color: #31467F;
+	text-align: center;
+	font-size: 16px;
+}
+
+.team-role {
+	text-align: center;
+	margin-top: 1px;
+}
+
+#team-head {
+	text-align: center;
+	color: #31467F;
+}
+
+#team-border {
+	text-align: center;
+	width: 20%;
+	height: 4px;
+	margin: 0 auto;
+	background-color: #B28D00;
+	margin-bottom: 20px;
+}
+
+div#team-container img {
+	margin-top: 20px;
+}
+
+
+
+/* CUSTOMIZE THE NEWS PANEL & PAGE
+-------------------------------------------------- */
+div#news-single-col > p {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+h4.news-head  ~ p {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+h4.news-head {
+	text-align: left;
+}
+
+#news-head {
+	text-align: center;
+	color: #31467F;
+}
+
+h4#news-topic {
+	text-align: left;
+}
+
+#news-border {
+	text-align: center;
+	width: 5%;
+	height: 4px;
+	margin: 0 auto;
+	background-color: #B28D00;
+	margin-bottom: 20px;
+}
+
+
+#news-body {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+/* CUSTOMIZE THE FOOTER PANEL
+-------------------------------------------------- */
+div.cert-body img {
+	width: 25%;
+	height: 70px;
+}
+
+div#footer-down {
+	padding-top: 23px;
+}
+
+}
+@media screen and (min-width: 992px) {
+
+
+#locate-on-map a {
+	position: relative;
+	left: 100px;
+	color: white;
+	font-size: 12px;
+}
+
+#logo {
+	position: relative;
+	left: 20px;
+	top: 20px;
+	width: 157px;
+	height: 140px;
+}
+
+
+.tel-nos  {
+	font-family: "Helvetica Narrow", Arial, sans-serif;
+	font-size:	20px;
+	position: relative;
+	text-align: right;
+	right: 20px;
+	bottom: 100px;
+	color: white;
+}
+
+#head-panel {
+	height: 180px;
+}
+
+#contact-info-bar {
+	margin-bottom: 3px;
+	height: 37px;
+}
+
+.navbar-wrapper {
+	margin-top: 4px;
+	margin-bottom: -4px;
+}
+
+#location-address {
+	color: white;
+	font-size: 12px;
+}
+
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 500px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+#carousel-container {
+	margin-top: -14px;
+}
+
+
+/* CUSTOMIZE THE WELCOME PANEL
+-------------------------------------------------- */
+#welcome-head {
+	text-align: center;
+	color:#31467F;
+}
+
+#welcome-row p {
+	font-size: 16px;
+	line-height:28px;
+	text-align:center;
+}
+
+#welcome-border {
+	text-align: center;
+	width: 25%;
+	height: 4px;
+	margin: 0 auto;
+	background-color: #B28D00;
+	border: 0;
+	margin-bottom: 20px;
+}
+
+.view-more {
+	float: right;
+	background-color: #B28D00;
+	border-color: #B28D00;
+	color: white;
+	border:0;
+	box-shadow: 3px 3px rgba(0, 0, 0, .5);
+}
+
+/* CUSTOMIZE THE CLIENT-PORTAL PAGE
+-------------------------------------------------- */
+div#portal-col p {
+	font-size: 16px;
+	line-height: 28px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+div#portal-input label {
+	margin-top: 20px;
+	font-size: 16px;
+	line-height: 28px;
+}
+
+
+/* CUSTOMIZE THE VACANCIES PAGE
+-------------------------------------------------- */
+div.vacancies-group p,
+div#vacancies-single-col > p {
+	font-size: 16px;
+	line-height: 28px;
+}
+
+/* CUSTOMIZE THE CAREERS-OVERVIEW PAGE
+-------------------------------------------------- */
+
+div#careers-overview-col > p {
+	font-size: 16px;
+	line-height: 28px;
+}
+
+
+/* CUSTOMIZE THE CONTACT PAGE
+-------------------------------------------------- */
+
+div#contact-col > p {
+	font-size: 16px;
+	line-height: 28px;
+}
+
+
+/* CUSTOMIZE THE PROOFS PAGE
+-------------------------------------------------- */
+div#contact-col,
+div#contact-side {
+	height: 600px;
+	margin-bottom: 15px;
+}
+
+
+/* CUSTOMIZE THE PROOFS PAGE
+-------------------------------------------------- */
+div#proofs-estate > p,
+div.estate-proofs > p > q,
+div#proofs-overview > p  {
+	font-size: 16px;
+	line-height: 28px;
+}
+
+
+/* CUSTOMIZE THE DOWNLOADS PAGE
+-------------------------------------------------- */
+
+div#downloads-col > p {
+	font-size: 16px;
+	line-height: 28px;
+}
+
+
+/* CUSTOMIZE THE IMAGE GALLERY PAGE
+-------------------------------------------------- */
+div.img-gallery-col > p {
+	font-size: 16px;
+	line-height: 28px;
+}
+
+
+/* CUSTOMIZE THE COMP ADVANTAGE PAGE
+-------------------------------------------------- */
+
+div#comp-adv-col > p {
+	font-size: 16px;
+	line-height: 28px;
+}
+
+
+/* CUSTOMIZE THE ORG STRUCTURE PAGE
+-------------------------------------------------- */
+
+div#org-structure-col > p {
+	font-size: 16px;
+	line-height: 28px;
+}
+
+
+/* CUSTOMIZE THE ABOUT PAGE
+-------------------------------------------------- */
+.about-head {
+	font-weight: bold;
+	text-align: center;
+	color: #31467F;
+}
+
+.about-body,
+.about-list {
+	text-align: justify;
+	font-size: 16px;
+	line-height: 28px;
+}
+
+#about-container {
+	margin-bottom: 20px;
+}
+
+#about-list li {
+	color: #B28D00;
+}
+
+#about-list li > span {
+	color: #000000;
+	font-size: 16px;
+}
+
+/* CUSTOMIZE THE SERVICES PANEL
+-------------------------------------------------- */
+h3#service-head-0 ~ p,
+h3.service-head ~ p {
+	font-size: 16px;
+	line-height: 28px;
+}
+
+div.col-services p {
+	font-size: 16px;
+	line-height:28px;
+}
+
+.services-panel {
+	border: 0;
+}
+
+#services-head-all {
+	text-align: center;
+}
+
+#services-border {
+	text-align: center;
+	width: 5%;
+	height: 4px;
+	margin: 0 auto;
+	background-color: #B28D00;
+	border: 0;
+	margin-bottom: 20px;
+}
+
+.services-body {
+	text-align: justify;
+}
+
+
+/* CUSTOMIZE THE TEAM PANEL
+-------------------------------------------------- */
+h3#team-head ~ p,
+h3.member-role ~ p {
+	font-size: 16px;
+	line-height: 28px;
+}
+
+.team-pix {
+	border-radius: 50%;
+	height: 237px;
+	width: 237px;
+	vertical-align: middle;
+	text-align: center;
+	border-color: #31467F;
+}
+
+.team-name {
+	color: #31467F;
+	text-align: center;
+	font-size: 16px;
+}
+
+.team-role {
+	text-align: center;
+}
+
+#team-head {
+	text-align: center;
+	color: #31467F;
+}
+
+#team-border {
+	text-align: center;
+	width: 15%;
+	height: 4px;
+	margin: 0 auto;
+	background-color: #B28D00;
+	border: 0;
+	margin-bottom: 20px;
+}
+
+
+/* CUSTOMIZE THE NEWS PANEL & PAGE
+-------------------------------------------------- */
+div#news-single-col > p {
+	font-size: 16px;
+	line-height: 28px;
+}
+
+h4.news-head  ~ p {
+	font-size: 16px;
+	line-height: 28px;
+}
+
+#news-head {
+	text-align: center;
+	color: #31467F;
+}
+
+#news-border {
+	text-align: center;
+	width: 2%;
+	height: 4px;
+	margin: 0 auto;
+	background-color: #B28D00;
+	border: 0;
+	margin-bottom: 20px;
+}
+
+#news-body {
+	font-size: 16px;
+	line-height: 28px;
+}
+
+
+
+/* CUSTOMIZE THE FOOTER PANEL
+-------------------------------------------------- */
+div.cert-body img {
+	width: 100%;
+	height: 70px;
+}
+
+}
+@media screen and (min-width: 1200px) {
+
+/* CUSTOMIZE THE WELCOME PANEL
+-------------------------------------------------- */
+#welcome-row p {
+	font-size: 18px;
+	line-height:30px;
+	text-align:center;
+}
+
+/* CUSTOMIZE THE CLIENT-PORTAL PAGE
+-------------------------------------------------- */
+div#portal-col p {
+	font-size: 18px;
+	line-height: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+div#portal-input label {
+	margin-top: 20px;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+
+/* CUSTOMIZE THE SERVICES PANEL
+-------------------------------------------------- */
+
+div.col-services p {
+	font-size: 18px;
+	line-height:30px;
+}
+
+hr#services-border {
+	text-align: center;
+	width: 5%;
+	height: 4px;
+	margin: 0 auto;
+	background-color: #B28D00;
+	border: 0;
+	margin-bottom: 20px;
+}
+
+h3#service-head-0 ~ p,
+h3.service-head ~ p {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+
+/* CUSTOMIZE THE VACANCIES PAGE
+-------------------------------------------------- */
+div.vacancies-group p,
+div#vacancies-single-col > p {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+/* CUSTOMIZE THE CAREERS-OVERVIEW PAGE
+-------------------------------------------------- */
+
+div#careers-overview-col > p {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+
+/* CUSTOMIZE THE CONTACT PAGE
+-------------------------------------------------- */
+
+div#contact-col > p {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+/* CUSTOMIZE THE PROOFS PAGE
+-------------------------------------------------- */
+div#proofs-estate > p,
+div.estate-proofs > p > q,
+div#proofs-overview > p  {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+/* CUSTOMIZE THE DOWNLOADS PAGE
+-------------------------------------------------- */
+
+div#downloads-col > p {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+
+
+/* CUSTOMIZE THE IMAGE GALLERY PAGE
+-------------------------------------------------- */
+div.img-gallery-col > p {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+
+/* CUSTOMIZE THE COMP ADVANTAGE PAGE
+-------------------------------------------------- */
+
+div#comp-adv-col > p {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+
+/* CUSTOMIZE THE ORG STRUCTURE PAGE
+-------------------------------------------------- */
+
+div#org-structure-col > p {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+/* CUSTOMIZE THE ABOUT PAGE
+-------------------------------------------------- */
+.about-head {
+	font-weight: bold;
+	text-align: center;
+	color: #31467F;
+}
+
+.about-body,
+.about-list {
+	text-align: justify;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+#about-container {
+	margin-bottom: 20px;
+}
+
+#about-list li {
+	color: #B28D00;
+}
+
+#about-list li > span {
+	color: #000000;
+	font-size: 18px;
+}
+
+/* CUSTOMIZE THE TEAM PAGE
+-------------------------------------------------- */
+h3#team-head ~ p,
+h3.member-role ~ p {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+
+/* CUSTOMIZE THE NEWS PAGE
+-------------------------------------------------- */
+
+#news-body,
+div#news-single-col > p,
+h4.news-head  ~ p {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+
+	
+}
